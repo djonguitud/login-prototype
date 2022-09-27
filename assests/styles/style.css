@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 2550px;
+	background-color: green;
+	margin: 0 auto;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	color: aliceblue;
+}
