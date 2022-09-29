@@ -37,7 +37,6 @@ body {
 }
 
 main {
-	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,7 +44,6 @@ main {
 	background-color: rgb(115, 115, 115);
 	border: rgb(219, 40, 40) solid 5px;
 	height: 100vh;
-	margin: 80px 0 80px 0;
 }
 
 h1 {
@@ -61,4 +59,12 @@ h1 {
 	align-items: center;
 	width: 50%;
 	border: rgb(23, 232, 255) solid 5px;
+}
+
+.cards__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: rgb(185, 60, 123) solid 5px;
 }
